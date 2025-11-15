@@ -889,7 +889,10 @@ height: 75vh;
 .mis_proyectos_imagen{
   height: 30vh;
 }
+.sobre_mi_info{
+  overflow-y: auto;
 
+}
 
 
 /* Estilos del form */

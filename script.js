@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navigator.clipboard.writeText(email)
       .then(() => {
         copyIcon.textContent = "check"; // cambia a check
-        copyIcon.style.animation = "pop 0.5s ease"; // aplica animación
+        copyIcon.style.animation = "pop 0.5s ease";
 
         // vuelve al ícono original luego de un tiempo
         setTimeout(() => {
