@@ -93,10 +93,18 @@ font-family: "Indie flower";
 }
 
 .header_img {
-height: 50px;
-border-radius: 30%;
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
 
 }
+.imagen_contenedor{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
 /* estilos del boton hamburguesa */
 .header_hamburguesa{
   display: none;
@@ -338,12 +346,16 @@ margin: 0 auto;
   color:rgb(51, 98, 252);
 }
 .sobre_mi_foto{
-    width: 100%;        
-  max-width: 400px;   
-  height: auto;       
-  object-fit: contain;
-  padding: 5vb;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.sobre_mi_imagen_contenedor{
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
 .sobre_mi_info{
@@ -860,7 +872,13 @@ scale: 1.2;
 
 .section_sobreMi{
 width: 70vw;
-height: 90vh;
+height: 75vh;
+
+}
+.sobre_mi_imagen_contenedor{
+
+  width: 150px;
+  height: 150px;
 
 }
 
